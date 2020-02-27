@@ -1,16 +1,59 @@
-html{
-  box-sizing: border-box; /* https://css-tricks.com/box-sizing/ */
-  background:#eee;
-  background: url("../img/flagF4D.png") center no-repeat;
+h1{
+color: white;
+    margin-left: 0.5em;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+
+.draggable {
+    width: 600px;
+    height: 320px;
+    text-align: center;
+    background: red;
 }
-body{
-  max-width: 30em;
-  margin: 1em auto;
-  padding: 1em;
-  background: #fff;
-  border-radius: 1em;
-  box-shadow: 0.5em 0.5em 0.5em rgba(68,68,68,0.6);
+
+.dropzone {
+    
+    width: 610px;
+    height: 330px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+.dropzone1 {
+   
+    width: 600px;
+    height: 3200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #141414;
+    position:fixed;
+    float: right;
+    top: 5.5em;
+    right: 0;
+
+}
+.dropzone1:hover {
+    transition: 0.3s;
+    width: 615px;
+    height: 3200px;
+    border-style: solid;
+    border-color: darkgreen;
+}
+
+
+img:hover {
+    width: 610px;
+    height: 330px;
+    transition: 0.3s;
+    border:3px solid darkred;
+}
+
+body {
+    background-color: #141414;
+        
+
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr;
 }
