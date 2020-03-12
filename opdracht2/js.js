@@ -1,12 +1,12 @@
 var currentfoto = 1;
 var prevfoto = 1; 
 
-document.getElementsByID("container").addEventListener("keydown",prev);
+document.getElementsByID("prev").addEventListener("keydown",prev);
 
 function prev(){
     vorige();
 }
-document.getElementsByID("container").addEventListener("keydown",next);
+document.getElementsByID("next").addEventListener("keydown",next);
 
 function next(){
     volgende();
