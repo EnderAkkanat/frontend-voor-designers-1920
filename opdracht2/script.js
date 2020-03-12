@@ -1,13 +1,15 @@
+//Waardes van de start foto's
 var currentfoto = 1;
 var prevfoto = 1; 
 
+//Proberen te navigeren met de arrows dmv keydown event.
 document.getElementsByID("prev").addEventListener("keydown",prev);
-
+//Voer vorige function uit.
 function prev(){
     vorige();
 }
 document.getElementsByID("next").addEventListener("keydown",next);
-
+//Voer volgende function uit.
 function next(){
     volgende();
 }
