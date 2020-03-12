@@ -1,0 +1,27 @@
+img {
+    width: 600px;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+}
+div {
+    padding: 20px;
+/*    margin-right: 40em;*/
+    
+}
+section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.5s;
+}
+button {
+    color:white;
+    background-color: orange;
+    width: 65px;
+    height: 25px;
+    
+}
+body {
+     overflow-x: hidden;
+}
