@@ -1,16 +1,30 @@
+body{
+    background-color: #3c3c3d;
+}
 
+h1{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 45px;
+    margin-left: 50px; 
+}
 
 img {
-    width: 600px;
-    padding: 20px;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
     align-content: center;
     text-align: center;
 }
-div {
-    padding: 20px;
-/*    margin-right: 40em;*/
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s; 
+    border-style: solid;
+    border-color: #962f36;
     
 }
+
 section {
     position: relative;
     display: flex;
@@ -18,14 +32,32 @@ section {
     transition: all 0.5s;
 }
 button {
-    color:black;
-    background-color: lightblue;
-    width: 100px;
-    height: 50px;
-    border-color: black;
+    margin-left: 50px;
+    /*bron styling: https://www.bestcssbuttongenerator.com/#/37*/
     font-family: 'Inter', sans-serif;
-    
-    
+    box-shadow:inset 3px -1px 17px -4px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #8beb57 100%);
+	background-color:#44c767;
+	border-radius:6px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 24px;
+	text-decoration:none;
+	text-shadow:-1px 1px 0px #2f6627;
+}
+/*bron styling: https://www.bestcssbuttongenerator.com/#/37*/
+button:hover {
+	background:linear-gradient(to bottom, #8beb57 5%, #44c767 100%);
+	background-color:#8beb57;
+}
+/*bron styling: https://www.bestcssbuttongenerator.com/#/37*/
+button:active {
+	position:relative;
+	top:1px;
 }
 
 button:focus {

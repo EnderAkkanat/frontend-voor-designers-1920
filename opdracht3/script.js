@@ -37,7 +37,16 @@ section.appendChild(newImage);
     
 var newImage = document.createElement("img");
 newImage.setAttribute("src", allMovies[3].cover)
-section.appendChild(newImage);       
+section.appendChild(newImage);    
+    
+var newImage = document.createElement("img");
+newImage.setAttribute("src", allMovies[4].cover)
+section.appendChild(newImage);   
+
+var newImage = document.createElement("img");
+newImage.setAttribute("src", allMovies[5].cover)
+section.appendChild(newImage);   
+
 }
 
 //carousel code
