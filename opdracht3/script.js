@@ -19,7 +19,7 @@ var allMovies = request.response;
     console.log(allMovies);
 
     
-//Een for loop om door de array heen te lopen voor de images. 
+//Een for loop om door de array heen te lopen voor de images. Geschreven door Koop Reynders 
 for (var item of allMovies) {
         //maak een article element om alle film dat in te zetten
         var article = document.createElement('article');
@@ -43,9 +43,10 @@ request.send();
 var currentfoto = 1;
 var prevfoto = 1; 
 
+//Maak eventlistener aan.
 document.addEventListener('keydown', logKey);
 
-//functie voor pijltjes aanmaken
+//functie voor pijltjes aanmaken. Geschreven met hulp van Koop Reynders.
 function logKey(e) {
   console.log("key",e.key);
   console.log("keyCode",e.keyCode);
